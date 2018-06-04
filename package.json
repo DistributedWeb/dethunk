@@ -1,0 +1,32 @@
+{
+  "name": "dethunk",
+  "version": "1.0.3",
+  "description": "Cached results via a deferred computation of parameter-less async functions. Used in dBrowser and with dDrive.",
+  "main": "index.js",
+  "devDependencies": {
+    "standard": "^7.1.2",
+    "tape": "^4.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/distributedweb/dethunk.git"
+  },
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "keywords": [
+    "memo",
+    "dethunked",
+    "async",
+    "lazy",
+    "control",
+    "flow",
+    "cache"
+  ],
+  "author": "Distributed Web Project <labs@distributedweb.org>",
+  "bugs": {
+    "url": "https://github.com/distributedweb/dethunk/issues"
+  },
+  "homepage": "https://github.com/distributedweb/dethunk#readme",
+  "license": "MIT"
+}
